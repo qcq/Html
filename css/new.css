@@ -1,0 +1,36 @@
+
+div{ 
+	
+}	
+
+.div1{
+/*
+	position:relative;
+	top:600px;
+	left:200px;
+	*/
+}
+.div2{
+	position:relative;
+	top:-60px;
+	left:40px;
+}
+input[type="text"]{
+	width:100px;
+}
+.div3{
+	position:relative;
+	top:-85px;
+	left:245px;
+	width:60px;
+	
+}
+.center1{
+	margin:auto;
+}
+body {
+	background-color:#33FFFF;
+	background-image:url(../picture/3.jpg); background-repeat:no-repeat;
+	margin:auto;
+    
+}

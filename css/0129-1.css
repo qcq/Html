@@ -1,0 +1,32 @@
+/* CSS Document */
+.outer{
+	width:90%;
+	height:535px;
+	margin:auto;
+	border:#00FF00 solid;
+	margin-top:100px;
+	
+}
+.top{
+	background-image:url(../picture/top.jpg);
+	background-repeat:repeat-x;
+}
+.left{
+	position:relative; 
+	top:-70px;
+	left:20px;
+	width:193px;
+	height:514px;
+}
+.good{
+	position:relative;
+	top:-440px;
+}
+.good .good_info{
+position:relative;
+    top:-110px;
+}
+ul{
+ font-size:18px;
+ list-style-type : circle;
+}
