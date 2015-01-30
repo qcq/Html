@@ -5,7 +5,7 @@
 	margin:auto;
 	border:#00FF00 solid;
 	margin-top:100px;
-	
+	color:#1b5b76;
 }
 .top{
 	background-image:url(../picture/top.jpg);
@@ -23,10 +23,12 @@
 	top:-440px;
 }
 .good .good_info{
-position:relative;
-    top:-110px;
+	position:relative;
+    top:-105px;
+
 }
-ul{
- font-size:18px;
- list-style-type : circle;
+ul{	
+ 	font-size:18px;
+ 	list-style-type : circle;
+ 
 }
