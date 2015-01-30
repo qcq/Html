@@ -1,6 +1,6 @@
 /* CSS Document */
 .outer{
-	width:90%;
+	width:970px;
 	height:535px;
 	margin:auto;
 	border:#00FF00 solid;
@@ -27,8 +27,69 @@
     top:-105px;
 
 }
+.user{
+	position:relative;
+	top:-555px;
+}
+.user .user_info{
+	position:relative;
+    top:-83px;
+}
+.order{
+	position:relative;
+	top:-648px;
+}
+.order .order_info{
+	position:relative;
+    top:-62px;
+}
+.advertisement{
+	position:relative;
+	top:-720px;
+}
+.advertisement .advertisement_info{
+	position:relative;
+    top:-62px;
+}
+.toolbar{
+	position:relative;
+	top:-515px;
+	float:right;
+}
+
 ul{	
  	font-size:18px;
  	list-style-type : circle;
+ 
+}
+
+.table_div{
+	position:relative;
+	top:-515px;
+	float:right;
+	/*left:245px;*/
+	width:718px;
+	height:425px;
+}
+
+table
+{
+    border-collapse:collapse;
+	text-align:center;
+	
+}
+
+td
+{
+ 	 padding:2px;
+}
+
+table,th, td
+{
+    border: 1px solid #576a79;
+}
+
+
+input[type="text"]{ 
  
 }
