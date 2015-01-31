@@ -1,0 +1,160 @@
+.outer{
+	width:768px;
+	height:535px;
+	margin:auto;
+	margin-top:100px;
+	margin-bottom:100px;
+	
+}
+div{
+	/*border:solid 1px #009;*/
+}
+
+.search{
+	position:relative;
+	top:-40px;
+	left:280px;
+}
+
+.navigator li{
+	position:relative;
+	top:-35px;
+	display:inline;
+}
+body{
+	color:#215a75;
+	font-size:15px;
+	background-color:#f5f5f5;
+}
+input[type="button"]{ 
+	color:#215a75;
+}
+.left{ 
+	position:relative;
+	top:-40px;
+	left:5px;
+	width:200px;
+	float:left;
+	background-color:#f5f5f5;
+}
+.left .login{
+	position:relative;
+	top:-120px;
+	left:20px;
+}
+.left .adver{
+	position:relative;
+	top:-80px;
+	
+}
+.left .adver .baidu{
+	position:absolute;
+	top:20px;
+	left:-10px;
+}
+.left .adver .baidu li {
+	margin-bottom:5px;
+}
+.more{ 
+	position:absolute;
+	top:8px;
+	left:145px;
+}
+.center{ 
+	position:relative;
+	top:-40px;
+	left:5px;
+	float:right;
+	height:540px;
+	background-color:#FFF;
+}
+.center .recommand .more{
+	position:absolute;
+	float:right;
+	top:20px;
+	left:500px;
+}
+.center .recommand .tv{
+	width:127px;
+}
+.center .recommand .tv .tv_info{
+	position:absolute;
+	top: 65px;
+	left: 140px;
+}
+.center .recommand .aaa{
+	position:absolute;
+	width:127px;
+	top:50px;
+	left:280px; 
+}
+.center .recommand .aaa .aaa_info{
+	position:absolute;
+	top:15px;
+	width:127px;
+	left:127px;
+}
+
+.center .new .more{
+	position:absolute;
+	float:right;
+	top:200px;
+	left:500px;
+}
+.center .new .tv{
+	width:127px;
+	height:109px;
+}
+.center .new .tv .tv_info{
+	position:absolute;
+	top:245px;
+	left:140px;
+}
+.center .new .computer{
+	position:absolute;
+	top:230px;
+	left:280px;
+}
+.center .new .computer .computer_info{
+	position:absolute;
+	top:15px;
+	left:120px;
+	width:127px;
+}
+.center .hot .more{
+	position:absolute;
+	top:375px;
+	left:500px;
+}
+.center .hot .cup{
+	position:absolute;
+	width:127px;
+}
+.center .hot .cup_info{
+	position:absolute;
+	top:20px;
+	width:127px;
+	left:127px;
+}
+.center .hot .camera{
+	position:absolute;
+	width:127px;
+	left:300px;
+}
+.center .hot .camera_info{
+	position:absolute;
+	top:20px;
+	width:127px;
+	left:127px;
+}
+.pink_font{
+	color:#F90;
+}
+.black_font{
+	color:#000;
+}
+.foot{
+	position:absolute;
+	top:770px;
+	width:768px;
+}
