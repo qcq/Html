@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<script>
+	function cal(){
+	
+		var r1 = Math.round(Math.random()*10);
+		var r2 = Math.round(Math.random()*10);
+		var r3 = Math.round(Math.random()*10);
+		result1 = prompt(String(r1)+"+"+String(r2)+"+"+String(r3)+"=?", "get result");
+		var result2=r1+r2+r3;
+		if(Number(result1)==result2){
+			result.innerHTML="right";
+		} else {
+			result.innerHTML="wrong";
+		}
+	}
+	function test(num){
+	var temp;
+		for (i = 1; i < num; i++){
+			temp*=i;
+		}
+		
+		document.write(temp);
+	}
+</script>
+</head>
+
+<body>
+
+	<input type="button" value="cal" onclick=""/>
+
+	<div id="result">
+		
+	</div>
+	<div id = "qin" style=" width:100px; height:100px;border:1px 
+	#000000 solid" onmouseover="test(1000)">
+	</div>
+	
+	
+</body>
+</html>
