@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style>
+
+	.from{width:50px;}
+	.pos{ float:left
+	border:#000000 solid 1px;
+	width:50px;
+	}
+</style>
+<script>
+	function right(){
+		var from = document.getElementById("from");
+		var to = document.getElementById("to");
+		to.add(from.options[from.selectedIndex],null);
+		from.remove(from.selectedIndex);
+		
+	}
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+</head>
+
+<body>
+	<div style="float:left">
+	<select id="from" class="from" multiple="multiple" size="6">
+		<option>1</option>
+		<option>2</option>
+			<option>3</option>
+		<option>4</option>
+			<option>5</option>
+		<option>6</option>
+	</select>
+	</div>
+	<div class="pos">
+		<input type="button" value=">>" onclick="right()"/>
+	<input type="button" value="<<" onclick="left()"/>
+	</div>
+	<div style="float:left">
+	<select id="to" class="from" size="6">
+	</select>
+	</div>
+</body>
+</html>
